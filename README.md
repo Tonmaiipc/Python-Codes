@@ -35,17 +35,25 @@
 5: C B B C A C C B B A A B C B B C A C C A B A A C C B B C A C C
 
 even odd = +B
+
 even even = -C
+
 odd odd = -C
+
 odd even = +B
 
 total move = 2^(m-1)
+
 total number of 1 piece = 2^(max-n) ; max = max pieces, n= piece no.
 
 1: 1,3,5,7  (2^0+2n)
+
 2: 2,6,10,14 (2^1+2^2n)
+
 3: 4,12,20,28 (2^2+2^3n)
+
 4: 8,24,40,56 (2^3+2^4n)
+
 5: 16,48,80,112 (+32)
 
 ith position of n in all moves = 2^(n-1) + 2^n * i  ; i = ith position in n
